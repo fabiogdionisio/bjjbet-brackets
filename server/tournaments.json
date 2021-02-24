@@ -1,0 +1,488 @@
+[
+  {
+    "id": 1,
+    "name": "GP Masculino",
+    "matchList": [
+      {
+        "round": 1,
+        "matches": [
+          {
+            "id": 1,
+            "order": 1,
+            "upperFighter": {
+              "id": 1,
+              "name": "Lousville",
+              "team": "Time Lorem Ipsum"
+            },
+            "lowerFighter": null,
+            "winner": 1,
+            "nextMatch": false
+          },
+          {
+            "id": 2,
+            "order": 1,
+            "upperFighter": {
+              "id": 2,
+              "name": "NC A&T",
+              "team": "Time Lorem Ipsum"
+            },
+            "lowerFighter": {
+              "id": 3,
+              "name": "Colo St",
+              "team": "Time Lorem Ipsum"
+            },
+            "winner": 3,
+            "nextMatch": false
+          },
+          {
+            "id": 3,
+            "order": 1,
+            "upperFighter": {
+              "id": 4,
+              "name": "Missouri",
+              "team": "Time Lorem Ipsum"
+            },
+            "lowerFighter": {
+              "id": 5,
+              "name": "Oklahoma St",
+              "team": "Time Lorem Ipsum"
+            },
+            "winner": null,
+            "nextMatch": true
+          },
+          {
+            "id": 4,
+            "order": 1,
+            "upperFighter": {
+              "id": 6,
+              "name": "Oregon",
+              "team": "Time Lorem Ipsum"
+            },
+            "lowerFighter": null,
+            "winner": 6,
+            "nextMatch": false
+          },
+          {
+            "id": 5,
+            "order": 1,
+            "upperFighter": {
+              "id": 7,
+              "name": "Saint Louis",
+              "team": "Time Lorem Ipsum"
+            },
+            "lowerFighter": null,
+            "winner": 7,
+            "nextMatch": false
+          },
+          {
+            "id": 6,
+            "order": 1,
+            "upperFighter": {
+              "id": 8,
+              "name": "New Mexico St",
+              "team": "Time Lorem Ipsum"
+            },
+            "lowerFighter": {
+              "id": 9,
+              "name": "Memphis",
+              "team": "Time Lorem Ipsum"
+            },
+            "winner": null,
+            "nextMatch": false
+          },
+          {
+            "id": 7,
+            "order": 1,
+            "upperFighter": {
+              "id": 10,
+              "name": "St Mary's",
+              "team": "Time Lorem Ipsum"
+            },
+            "lowerFighter": {
+              "id": 11,
+              "name": "Mich St",
+              "team": "Time Lorem Ipsum"
+            },
+            "winner": null,
+            "nextMatch": false
+          },
+          {
+            "id": 8,
+            "order": 1,
+            "upperFighter": {
+              "id": 12,
+              "name": "Valparaiso",
+              "team": "Time Lorem Ipsum"
+            },
+            "lowerFighter": null,
+            "winner": 12,
+            "nextMatch": false
+          }
+        ]
+      },
+      {
+        "round": 2,
+        "matches": [
+          {
+            "id": 9,
+            "upperFighter": {
+              "id": 1,
+              "name": "Lousville",
+              "team": "Time Lorem Ipsum"
+            },
+            "lowerFighter": {
+              "id": 3,
+              "name": "Colo St",
+              "team": "Time Lorem Ipsum"
+            },
+            "winner": null,
+            "nextMatch": false
+          },
+          {
+            "id": 10,
+            "upperFighter": {
+              "id": 0,
+              "name": "A ser definido",
+              "team": null
+            },
+            "lowerFighter": {
+              "id": 6,
+              "name": "Oregon",
+              "team": "Time Lorem Ipsum"
+            },
+            "winner": null,
+            "nextMatch": false
+          },
+          {
+            "id": 11,
+            "upperFighter": {
+              "id": 7,
+              "name": "Saint Louis",
+              "team": "Time Lorem Ipsum"
+            },
+            "lowerFighter": {
+              "id": 0,
+              "name": "A ser definido",
+              "team": null
+            },
+            "winner": null,
+            "nextMatch": false
+          },
+          {
+            "id": 12,
+            "upperFighter": {
+              "id": 0,
+              "name": "A ser definido",
+              "team": null
+            },
+            "lowerFighter": {
+              "id": 12,
+              "name": "Valparaiso",
+              "team": "Time Lorem Ipsum"
+            },
+            "winner": null,
+            "nextMatch": false
+          }
+        ]
+      },
+      {
+        "round": 3,
+        "matches": [
+          {
+            "id": 13,
+            "upperFighter": {
+              "id": 0,
+              "name": "A ser definido",
+              "team": null
+            },
+            "lowerFighter": {
+              "id": 0,
+              "name": "A ser definido",
+              "team": null
+            },
+            "winner": null,
+            "nextMatch": false
+          },
+          {
+            "id": 14,
+            "upperFighter": {
+              "id": 0,
+              "name": "A ser definido",
+              "team": null
+            },
+            "lowerFighter": {
+              "id": 0,
+              "name": "A ser definido",
+              "team": null
+            },
+            "winner": null,
+            "nextMatch": false
+          }
+        ]
+      },
+      {
+        "round": 4,
+        "matches": [
+          {
+            "id": 15,
+            "upperFighter": {
+              "id": 0,
+              "name": "A ser definido",
+              "team": null
+            },
+            "lowerFighter": {
+              "id": 0,
+              "name": "A ser definido",
+              "team": null
+            },
+            "winner": null,
+            "nextMatch": false
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "name": "GP Feminino",
+    "matchList": [
+      {
+        "round": 1,
+        "matches": [
+          {
+            "id": 1,
+            "order": 1,
+            "upperFighter": {
+              "id": 1,
+              "name": "Lousville",
+              "team": "Time Lorem Ipsum"
+            },
+            "lowerFighter": null,
+            "winner": 1,
+            "nextMatch": false
+          },
+          {
+            "id": 2,
+            "order": 1,
+            "upperFighter": {
+              "id": 2,
+              "name": "NC A&T",
+              "team": "Time Lorem Ipsum"
+            },
+            "lowerFighter": {
+              "id": 3,
+              "name": "Colo St",
+              "team": "Time Lorem Ipsum"
+            },
+            "winner": 3,
+            "nextMatch": false
+          },
+          {
+            "id": 3,
+            "order": 1,
+            "upperFighter": {
+              "id": 4,
+              "name": "Missouri",
+              "team": "Time Lorem Ipsum"
+            },
+            "lowerFighter": {
+              "id": 5,
+              "name": "Oklahoma St",
+              "team": "Time Lorem Ipsum"
+            },
+            "winner": null,
+            "nextMatch": true
+          },
+          {
+            "id": 4,
+            "order": 1,
+            "upperFighter": {
+              "id": 6,
+              "name": "Oregon",
+              "team": "Time Lorem Ipsum"
+            },
+            "lowerFighter": null,
+            "winner": 6,
+            "nextMatch": false
+          },
+          {
+            "id": 5,
+            "order": 1,
+            "upperFighter": {
+              "id": 7,
+              "name": "Saint Louis",
+              "team": "Time Lorem Ipsum"
+            },
+            "lowerFighter": null,
+            "winner": 7,
+            "nextMatch": false
+          },
+          {
+            "id": 6,
+            "order": 1,
+            "upperFighter": {
+              "id": 8,
+              "name": "New Mexico St",
+              "team": "Time Lorem Ipsum"
+            },
+            "lowerFighter": {
+              "id": 9,
+              "name": "Memphis",
+              "team": "Time Lorem Ipsum"
+            },
+            "winner": null,
+            "nextMatch": false
+          },
+          {
+            "id": 7,
+            "order": 1,
+            "upperFighter": {
+              "id": 10,
+              "name": "St Mary's",
+              "team": "Time Lorem Ipsum"
+            },
+            "lowerFighter": {
+              "id": 11,
+              "name": "Mich St",
+              "team": "Time Lorem Ipsum"
+            },
+            "winner": null,
+            "nextMatch": false
+          },
+          {
+            "id": 8,
+            "order": 1,
+            "upperFighter": {
+              "id": 12,
+              "name": "Valparaiso",
+              "team": "Time Lorem Ipsum"
+            },
+            "lowerFighter": null,
+            "winner": 12,
+            "nextMatch": false
+          }
+        ]
+      },
+      {
+        "round": 2,
+        "matches": [
+          {
+            "id": 9,
+            "upperFighter": {
+              "id": 1,
+              "name": "Lousville",
+              "team": "Time Lorem Ipsum"
+            },
+            "lowerFighter": {
+              "id": 3,
+              "name": "Colo St",
+              "team": "Time Lorem Ipsum"
+            },
+            "winner": null,
+            "nextMatch": false
+          },
+          {
+            "id": 10,
+            "upperFighter": {
+              "id": 0,
+              "name": "A ser definido",
+              "team": null
+            },
+            "lowerFighter": {
+              "id": 6,
+              "name": "Oregon",
+              "team": "Time Lorem Ipsum"
+            },
+            "winner": null,
+            "nextMatch": false
+          },
+          {
+            "id": 11,
+            "upperFighter": {
+              "id": 7,
+              "name": "Saint Louis",
+              "team": "Time Lorem Ipsum"
+            },
+            "lowerFighter": {
+              "id": 0,
+              "name": "A ser definido",
+              "team": null
+            },
+            "winner": null,
+            "nextMatch": false
+          },
+          {
+            "id": 12,
+            "upperFighter": {
+              "id": 0,
+              "name": "A ser definido",
+              "team": null
+            },
+            "lowerFighter": {
+              "id": 12,
+              "name": "Valparaiso",
+              "team": "Time Lorem Ipsum"
+            },
+            "winner": null,
+            "nextMatch": false
+          }
+        ]
+      },
+      {
+        "round": 3,
+        "matches": [
+          {
+            "id": 13,
+            "upperFighter": {
+              "id": 0,
+              "name": "A ser definido",
+              "team": null
+            },
+            "lowerFighter": {
+              "id": 0,
+              "name": "A ser definido",
+              "team": null
+            },
+            "winner": null,
+            "nextMatch": false
+          },
+          {
+            "id": 14,
+            "upperFighter": {
+              "id": 0,
+              "name": "A ser definido",
+              "team": null
+            },
+            "lowerFighter": {
+              "id": 0,
+              "name": "A ser definido",
+              "team": null
+            },
+            "winner": null,
+            "nextMatch": false
+          }
+        ]
+      },
+      {
+        "round": 4,
+        "matches": [
+          {
+            "id": 15,
+            "upperFighter": {
+              "id": 0,
+              "name": "A ser definido",
+              "team": null
+            },
+            "lowerFighter": {
+              "id": 0,
+              "name": "A ser definido",
+              "team": null
+            },
+            "winner": null,
+            "nextMatch": false
+          }
+        ]
+      }
+    ]
+  }
+]
