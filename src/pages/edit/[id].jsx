@@ -2,10 +2,10 @@ import React, { useEffect, useState } from 'react';
 
 import styles from '../../styles/Tournament.module.scss';
 
-import Brackets from '../../components/Brackets';
+import BracketsWithEdition from '../../components/BracketsWithEdition';
 import Loader from '../../components/Loader';
 
-function Tournament({ tournamentId }) {
+function Edit({ tournamentId }) {
   const [tournament, setTournament] = useState(null);
   const [isLoading, setIsLoading] = useState(true);
 
@@ -15,14 +15,6 @@ function Tournament({ tournamentId }) {
       .then((res) => res.json())
       .then((data) => setTournament(data))
       .then(() => setIsLoading(false));
-
-    const interval = setInterval(() => {
-      fetch(`/api/tournaments/${tournamentId}`)
-        .then((res) => res.json())
-        .then((data) => setTournament(data));
-    }, 5000);
-
-    return () => clearInterval(interval);
   }, []);
 
   return (
@@ -32,13 +24,13 @@ function Tournament({ tournamentId }) {
         <h2>{tournament?.name}</h2>
       </div>
       <Loader isLoading={isLoading}>
-        <Brackets matchList={tournament?.matchList} />
+        <BracketsWithEdition matchList={tournament?.matchList} />
       </Loader>
     </main>
   );
 }
 
-export default Tournament;
+export default Edit;
 
 export async function getServerSideProps(context) {
   return {

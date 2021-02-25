@@ -7,7 +7,7 @@ import styles from './styles.module.scss';
 
 function Match({ order, upperFighter, lowerFighter, winner, nextMatch }) {
   return (
-    <li>
+    <li className={classNames({ [styles.fought]: winner })}>
       <div className={styles.wrapper}>
         <div
           className={classNames(styles.order, {

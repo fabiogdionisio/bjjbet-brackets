@@ -5,7 +5,7 @@ import Match from '../Match';
 
 import styles from './styles.module.scss';
 
-function TournamentTable({ matchList }) {
+function Brackets({ matchList }) {
   function renderRound(data) {
     if (!data) return null;
 
@@ -26,8 +26,8 @@ function TournamentTable({ matchList }) {
         const left = [];
         const right = [];
 
-        round.matches.forEach((match, index) => {
-          if (index + 1 <= elementAmount)
+        round.matches.forEach((match, i) => {
+          if (i + 1 <= elementAmount)
             left.push(<Match key={match.id} {...match} />);
           else right.push(<Match key={match.id} {...match} />);
         });
@@ -57,4 +57,4 @@ function TournamentTable({ matchList }) {
   return <div className={styles.wrapper}>{renderRound(matchList)}</div>;
 }
 
-export default TournamentTable;
+export default Brackets;
