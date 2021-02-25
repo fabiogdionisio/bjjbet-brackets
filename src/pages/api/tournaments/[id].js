@@ -24,7 +24,22 @@ export default async function handler(req, res) {
     await writeFile('./server/tournaments.json', JSON.stringify(newData));
 
     res.status(200).json();
+  } else if (req.method === 'PUT') {
+    const data = await readFile('./server/tournaments.json');
+    const tournaments = JSON.parse(data);
+
+    const tournament = tournaments.findIndex(
+      (el) => el.id === parseInt(req.query.id, 10)
+    );
+
+    tournaments[req.query.id] = { ...req.body }
+
+    await writeFile('./server/tournaments.json', JSON.stringify(tournament));
+
+    res.status(200).json();
   } else {
-    res.status(405).json();
+      res.status(405).json();
+      
+    }
   }
 }

@@ -1,0 +1,279 @@
+[
+  {
+    "round": 1,
+    "matches": [
+      {
+        "id": 1,
+        "order": null,
+        "upperFighter": {
+          "id": 1,
+          "name": null,
+          "team": null
+        },
+        "lowerFighter": {
+          "id": 2,
+          "name": null,
+          "team": null
+        },
+        "winner": null,
+        "nextMatch": false,
+        "nextMatchId": 9
+      },
+      {
+        "id": 2,
+        "order": null,
+        "upperFighter": {
+          "id": 3,
+          "name": null,
+          "team": null
+        },
+        "lowerFighter": {
+          "id": 4,
+          "name": null,
+          "team": null
+        },
+        "winner": null,
+        "nextMatch": false,
+        "nextMatchId": 9
+      },
+      {
+        "id": 3,
+        "order": null,
+        "upperFighter": {
+          "id": 5,
+          "name": null,
+          "team": null
+        },
+        "lowerFighter": {
+          "id": 6,
+          "name": null,
+          "team": null
+        },
+        "winner": null,
+        "nextMatch": false,
+        "nextMatchId": 10
+
+      },
+      {
+        "id": 4,
+        "order": null,
+        "upperFighter": {
+          "id": 7,
+          "name": null,
+          "team": null
+        },
+        "lowerFighter": {
+          "id": 8,
+          "name": null,
+          "team": null
+        },
+        "winner": null,
+        "nextMatch": false,
+        "nextMatchId": 10
+
+      },
+      {
+        "id": 5,
+        "order": null,
+        "upperFighter": {
+          "id": 9,
+          "name": null,
+          "team": null
+        },
+        "lowerFighter": {
+          "id": 10,
+          "name": null,
+          "team": null
+        },
+        "winner": null,
+        "nextMatch": false,
+        "nextMatchId": 11
+      },
+      {
+        "id": 6,
+        "order": null,
+        "upperFighter": {
+          "id": 11,
+          "name": null,
+          "team": null
+        },
+        "lowerFighter": {
+          "id": 12,
+          "name": null,
+          "team": null
+        },
+        "winner": null,
+        "nextMatch": false,
+        "nextMatchId": 11
+      },
+      {
+        "id": 7,
+        "order": null,
+        "upperFighter": {
+          "id": 13,
+          "name": null,
+          "team": null
+        },
+        "lowerFighter": {
+          "id": 14,
+          "name": null,
+          "team": null
+        },
+        "winner": null,
+        "nextMatch": false,
+        "nextMatchId": 12
+      },
+      {
+        "id": 8,
+        "order": null,
+        "upperFighter": {
+          "id": 15,
+          "name": null,
+          "team": null
+        },
+        "lowerFighter": {
+          "id": 16,
+          "name": null,
+          "team": null
+        },
+        "winner": null,
+        "nextMatch": false,
+        "nextMatchId": 12
+      }
+    ]
+  },
+  {
+    "round": 2,
+    "matches": [
+      {
+        "id": 9,
+        "order": null,
+        "upperFighter": {
+          "id": 0,
+          "name": "A ser definido",
+          "team": null
+        },
+        "lowerFighter": {
+          "id": 0,
+          "name": "A ser definido",
+          "team": null
+        },
+        "winner": null,
+        "nextMatch": false,
+        "nextMatchId": 13
+      },
+      {
+        "id": 10,
+        "order": null,
+        "upperFighter": {
+          "id": 0,
+          "name": "A ser definido",
+          "team": null
+        },
+        "lowerFighter": {
+          "id": 0,
+          "name": "A ser definido",
+          "team": null
+        },
+        "winner": null,
+        "nextMatch": false,
+        "nextMatchId": 13
+      },
+      {
+        "id": 11,
+        "order": null,
+        "upperFighter": {
+          "id": 0,
+          "name": "A ser definido",
+          "team": null
+        },
+        "lowerFighter": {
+          "id": 0,
+          "name": "A ser definido",
+          "team": null
+        },
+        "winner": null,
+        "nextMatch": false,
+        "nextMatchId": 14
+      },
+      {
+        "id": 12,
+        "order": null,
+        "upperFighter": {
+          "id": 0,
+          "name": "A ser definido",
+          "team": null
+        },
+        "lowerFighter": {
+          "id": 0,
+          "name": "A ser definido",
+          "team": null
+        },
+        "winner": null,
+        "nextMatch": false,
+        "nextMatchId": 14
+      }
+    ]
+  },
+  {
+    "round": 3,
+    "matches": [
+      {
+        "id": 13,
+        "order": null,
+        "upperFighter": {
+          "id": 0,
+          "name": "A ser definido",
+          "team": null
+        },
+        "lowerFighter": {
+          "id": 0,
+          "name": "A ser definido",
+          "team": null
+        },
+        "winner": null,
+        "nextMatch": false,
+        "nextMatchId": 15
+      },
+      {
+        "id": 14,
+        "order": null,
+        "upperFighter": {
+          "id": 0,
+          "name": "A ser definido",
+          "team": null
+        },
+        "lowerFighter": {
+          "id": 0,
+          "name": "A ser definido",
+          "team": null
+        },
+        "winner": null,
+        "nextMatch": false,
+        "nextMatchId": 15
+      }
+    ]
+  },
+  {
+    "round": 4,
+    "matches": [
+      {
+        "id": 15,
+        "order": null,
+        "upperFighter": {
+          "id": 0,
+          "name": "A ser definido",
+          "team": null
+        },
+        "lowerFighter": {
+          "id": 0,
+          "name": "A ser definido",
+          "team": null
+        },
+        "winner": null,
+        "nextMatch": false,
+        "nextMatchId": null
+      }
+    ]
+  }
+]
