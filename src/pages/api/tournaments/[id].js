@@ -28,18 +28,16 @@ export default async function handler(req, res) {
     const data = await readFile('./server/tournaments.json');
     const tournaments = JSON.parse(data);
 
-    const tournament = tournaments.findIndex(
+    const index = tournaments.findIndex(
       (el) => el.id === parseInt(req.query.id, 10)
     );
 
-    tournaments[req.query.id] = { ...req.body }
+    tournaments[index] = { ...req.body };
 
-    await writeFile('./server/tournaments.json', JSON.stringify(tournament));
+    await writeFile('./server/tournaments.json', JSON.stringify(tournaments));
 
     res.status(200).json();
   } else {
-      res.status(405).json();
-      
-    }
+    res.status(405).json();
   }
 }

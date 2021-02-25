@@ -76,7 +76,10 @@ function Edit({ tournamentId }) {
         ...tournament,
         matchList: [...matchList],
       })
-      .then(() => toast.success('Torneio atualizado com sucesso!'));
+      .then(() => {
+        toast.success('Torneio atualizado com sucesso!');
+        setModalSave(false);
+      });
   }
 
   function handleEdit(e, id, fighterPosition) {
