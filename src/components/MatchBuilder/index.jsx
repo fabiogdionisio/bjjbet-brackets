@@ -43,7 +43,7 @@ function MatchBuilder({
             <label htmlFor={`nextMatch-${id}`}>
               Próx. Luta
               <input
-                type="radio"
+                type="checkbox"
                 name="nextMatch"
                 id={`nextMatch-${id}`}
                 className="ml-2"

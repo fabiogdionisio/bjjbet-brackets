@@ -19,7 +19,7 @@ function Brackets({ matchList }) {
       if (round.matches.length === 1) {
         render.push(
           <Round key={0}>
-            <Match {...round.matches[0]} />
+            <Match {...round.matches[0]} position="final" />
           </Round>
         );
       } else {
@@ -28,8 +28,8 @@ function Brackets({ matchList }) {
 
         round.matches.forEach((match, i) => {
           if (i + 1 <= elementAmount)
-            left.push(<Match key={match.id} {...match} />);
-          else right.push(<Match key={match.id} {...match} />);
+            left.push(<Match key={match.id} position="left" {...match} />);
+          else right.push(<Match key={match.id} position="right" {...match} />);
         });
 
         render.unshift(

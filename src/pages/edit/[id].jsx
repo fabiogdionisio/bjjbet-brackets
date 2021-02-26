@@ -13,6 +13,7 @@ import matchListTemplate from '../../../server/matchListTemplate.json';
 
 function Edit({ tournamentId }) {
   const [tournament, setTournament] = useState(null);
+  const [navigation, setNavigation] = useState(null);
   const [matchList, setMatchList] = useState(matchListTemplate);
   const [isLoading, setIsLoading] = useState(true);
   const [modalSave, setModalSave] = useState(false);
@@ -29,18 +30,27 @@ function Edit({ tournamentId }) {
       .then(() => setIsLoading(false));
   }, []);
 
+  useEffect(() => {
+    setIsLoading(true);
+    fetch(`/api/tournaments/`)
+      .then((res) => res.json())
+      .then((data) => setNavigation(data))
+      .then(() => setIsLoading(false));
+  }, []);
+
   function handleDiscard() {
     setModalDiscard(true);
   }
 
   function handleNextMatch(e) {
     const { value } = e.target;
+
     setMatchList((prev) =>
       prev.map((round) => ({
         ...round,
         matches: round.matches.map((match) => ({
           ...match,
-          nextMatch: parseInt(value, 10) === match.id,
+          nextMatch: match.nextMatch ? false : parseInt(value, 10) === match.id,
         })),
       }))
     );
@@ -194,6 +204,7 @@ function Edit({ tournamentId }) {
 
           updatedMatches[index].lowerFighter = { ...fighter };
           updatedMatches[index].upperFighter = { ...fighter };
+          updatedMatches[index].winner = null;
 
           return {
             ...round,
@@ -250,9 +261,35 @@ function Edit({ tournamentId }) {
           >
             Salvar
           </Button>
+          <Button
+            size="lg"
+            variant="info"
+            className="mr-3"
+            onClick={() => {
+              window.location.href = `/tournament/${tournamentId}`;
+            }}
+          >
+            Visualizar
+          </Button>
           <Button size="lg" variant="secondary" onClick={handleDiscard}>
             Cancelar
           </Button>
+
+          {navigation?.map((el) => {
+            if (parseInt(el.id, 10) !== parseInt(tournamentId, 10))
+              return (
+                <Button
+                  size="lg"
+                  variant="primary"
+                  className="ml-3"
+                  onClick={() => {
+                    window.location.href = `/edit/${el.id}`;
+                  }}
+                >
+                  Ir para {el.name}
+                </Button>
+              );
+          })}
         </div>
       </Loader>
 
