@@ -17,7 +17,7 @@
         },
         "winner": null,
         "nextMatch": false,
-        "nextMatchId": 9
+        "nextMatchId": 5
       },
       {
         "id": 2,
@@ -34,7 +34,7 @@
         },
         "winner": null,
         "nextMatch": false,
-        "nextMatchId": 9
+        "nextMatchId": 5
       },
       {
         "id": 3,
@@ -51,8 +51,7 @@
         },
         "winner": null,
         "nextMatch": false,
-        "nextMatchId": 10
-
+        "nextMatchId": 6
       },
       {
         "id": 4,
@@ -69,76 +68,7 @@
         },
         "winner": null,
         "nextMatch": false,
-        "nextMatchId": 10
-
-      },
-      {
-        "id": 5,
-        "order": null,
-        "upperFighter": {
-          "id": 9,
-          "name": null,
-          "team": null
-        },
-        "lowerFighter": {
-          "id": 10,
-          "name": null,
-          "team": null
-        },
-        "winner": null,
-        "nextMatch": false,
-        "nextMatchId": 11
-      },
-      {
-        "id": 6,
-        "order": null,
-        "upperFighter": {
-          "id": 11,
-          "name": null,
-          "team": null
-        },
-        "lowerFighter": {
-          "id": 12,
-          "name": null,
-          "team": null
-        },
-        "winner": null,
-        "nextMatch": false,
-        "nextMatchId": 11
-      },
-      {
-        "id": 7,
-        "order": null,
-        "upperFighter": {
-          "id": 13,
-          "name": null,
-          "team": null
-        },
-        "lowerFighter": {
-          "id": 14,
-          "name": null,
-          "team": null
-        },
-        "winner": null,
-        "nextMatch": false,
-        "nextMatchId": 12
-      },
-      {
-        "id": 8,
-        "order": null,
-        "upperFighter": {
-          "id": 15,
-          "name": null,
-          "team": null
-        },
-        "lowerFighter": {
-          "id": 16,
-          "name": null,
-          "team": null
-        },
-        "winner": null,
-        "nextMatch": false,
-        "nextMatchId": 12
+        "nextMatchId": 6
       }
     ]
   },
@@ -146,7 +76,7 @@
     "round": 2,
     "matches": [
       {
-        "id": 9,
+        "id": 5,
         "order": null,
         "upperFighter": {
           "id": 0,
@@ -160,10 +90,10 @@
         },
         "winner": null,
         "nextMatch": false,
-        "nextMatchId": 13
+        "nextMatchId": 7
       },
       {
-        "id": 10,
+        "id": 6,
         "order": null,
         "upperFighter": {
           "id": 0,
@@ -177,41 +107,7 @@
         },
         "winner": null,
         "nextMatch": false,
-        "nextMatchId": 13
-      },
-      {
-        "id": 11,
-        "order": null,
-        "upperFighter": {
-          "id": 0,
-          "name": "A ser definido",
-          "team": null
-        },
-        "lowerFighter": {
-          "id": 0,
-          "name": "A ser definido",
-          "team": null
-        },
-        "winner": null,
-        "nextMatch": false,
-        "nextMatchId": 14
-      },
-      {
-        "id": 12,
-        "order": null,
-        "upperFighter": {
-          "id": 0,
-          "name": "A ser definido",
-          "team": null
-        },
-        "lowerFighter": {
-          "id": 0,
-          "name": "A ser definido",
-          "team": null
-        },
-        "winner": null,
-        "nextMatch": false,
-        "nextMatchId": 14
+        "nextMatchId": 7
       }
     ]
   },
@@ -219,46 +115,7 @@
     "round": 3,
     "matches": [
       {
-        "id": 13,
-        "order": null,
-        "upperFighter": {
-          "id": 0,
-          "name": "A ser definido",
-          "team": null
-        },
-        "lowerFighter": {
-          "id": 0,
-          "name": "A ser definido",
-          "team": null
-        },
-        "winner": null,
-        "nextMatch": false,
-        "nextMatchId": 15
-      },
-      {
-        "id": 14,
-        "order": null,
-        "upperFighter": {
-          "id": 0,
-          "name": "A ser definido",
-          "team": null
-        },
-        "lowerFighter": {
-          "id": 0,
-          "name": "A ser definido",
-          "team": null
-        },
-        "winner": null,
-        "nextMatch": false,
-        "nextMatchId": 15
-      }
-    ]
-  },
-  {
-    "round": 4,
-    "matches": [
-      {
-        "id": 15,
+        "id": 7,
         "order": null,
         "upperFighter": {
           "id": 0,
